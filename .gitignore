@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Build artifacts
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.recipe
+*.tlog
+*.idb
+*.ipch
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
