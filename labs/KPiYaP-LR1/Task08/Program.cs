@@ -14,6 +14,8 @@ namespace Task08
     /// </summary>
     internal static class Program
     {
+        // Ограничение на число строк таблицы: защищает от зацикливания,
+        // если шаг h слишком мал для диапазона [a; b].
         private const int MaxRows = 10_000;
 
         private static void Main()
