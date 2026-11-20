@@ -24,6 +24,11 @@ x64/
 *.ipch
 *.log
 
+# .NET (C#-проекты)
+bin/
+obj/
+*.csproj.user
+
 # NuGet
 packages/
 *.nupkg
